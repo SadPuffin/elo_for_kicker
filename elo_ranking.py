@@ -69,5 +69,5 @@ def team_play(a1, a2, b1, b2, Score):
     a2 += rank_a - mean_a
     b1 += rank_b - mean_b
     b2 += rank_b - mean_b
-    return a1, a2, b1, b2, rank_1, rank_b
+    return a1, a2, b1, b2, rank_a, rank_b
     
